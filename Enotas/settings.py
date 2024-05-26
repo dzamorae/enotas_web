@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['enotas.azurewebsites.net']
 
+CSRF_TRUSTED_ORIGINS = ['https://enotas.azurewebsites.net']
 
 # Application definition
 
